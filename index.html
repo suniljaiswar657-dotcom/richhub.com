@@ -1,0 +1,287 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>GYMP | Build Your Strength</title>
+    <meta
+      name="description"
+      content="Professional modern gym website: personal training, group classes, nutrition coaching, and open gym access."
+    />
+    <link rel="stylesheet" href="styles.css" />
+
+    <!-- Optional: nice system font stack, no external dependencies -->
+  </head>
+
+  <body>
+    <!-- Header -->
+    <header class="site-header">
+      <div class="container header-row">
+        <a class="brand" href="#home" aria-label="GYMP Home">
+          <span class="brand-mark">GYMP</span>
+        </a>
+
+        <button class="nav-toggle" id="navToggle" aria-expanded="false" aria-controls="siteNav">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="burger" aria-hidden="true"></span>
+        </button>
+
+        <nav class="nav" id="siteNav">
+          <a href="#home">Home</a>
+          <a href="#services">Services</a>
+          <a href="#trainers">Trainers</a>
+          <a href="#pricing">Pricing</a>
+          <a href="#contact">Contact</a>
+        </nav>
+      </div>
+    </header>
+
+    <!-- Hero -->
+    <main id="home">
+      <section class="hero">
+        <div class="container hero-grid">
+          <div class="hero-copy">
+            <p class="eyebrow">Professional Ultra Modern Gym</p>
+            <h1>BUILD YOUR STRENGTH WITH GYMP</h1>
+            <p class="lead">
+              Attractive, unique training experience that helps you get stronger, fitter, and more confident.
+            </p>
+
+            <div class="hero-actions">
+              <a class="btn primary" href="#pricing">Get Started</a>
+              <a class="btn ghost" href="#contact">Book a Free Trial</a>
+            </div>
+
+            <div class="hero-highlights">
+              <div class="chip">Certified trainers</div>
+              <div class="chip">Personal + group sessions</div>
+              <div class="chip">Nutrition coaching</div>
+              <div class="chip">Open gym access</div>
+            </div>
+          </div>
+
+          <div class="hero-card">
+            <div class="stat">
+              <p class="stat-num">5+</p>
+              <p class="stat-label">Years Experience</p>
+            </div>
+            <div class="stat">
+              <p class="stat-num">4</p>
+              <p class="stat-label">Core Services</p>
+            </div>
+            <div class="stat">
+              <p class="stat-num">100%</p>
+              <p class="stat-label">Goal Focused</p>
+            </div>
+
+            <p class="hero-note">
+              Clean workouts. Clear plans. Real results.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <!-- Services -->
+      <section class="section" id="services">
+        <div class="container">
+          <div class="section-head">
+            <h2>Our Services</h2>
+            <p>Everything you need to train, recover, and progress.</p>
+          </div>
+
+          <div class="cards">
+            <article class="card">
+              <h3>Personal Training</h3>
+              <p>One-on-one coaching tailored to your individual fitness goals.</p>
+              <ul class="list">
+                <li>Goal-based plan</li>
+                <li>Form correction</li>
+                <li>Weekly progress tracking</li>
+              </ul>
+            </article>
+
+            <article class="card">
+              <h3>Group Classes</h3>
+              <p>Fun and motivating classes for all fitness levels.</p>
+              <ul class="list">
+                <li>Strength + conditioning</li>
+                <li>Beginner friendly</li>
+                <li>Community support</li>
+              </ul>
+            </article>
+
+            <article class="card">
+              <h3>Nutrition Coaching</h3>
+              <p>Simple nutrition guidance that fits your lifestyle.</p>
+              <ul class="list">
+                <li>Habit coaching</li>
+                <li>Meal planning basics</li>
+                <li>Weekly check-ins</li>
+              </ul>
+            </article>
+
+            <article class="card">
+              <h3>Open Gym Access</h3>
+              <p>Train anytime with full access to our equipment.</p>
+              <ul class="list">
+                <li>Clean space</li>
+                <li>Modern equipment</li>
+                <li>Flexible timings</li>
+              </ul>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- Trainers -->
+      <section class="section" id="trainers">
+        <div class="container">
+          <div class="section-head">
+            <h2>Meet Our Trainers</h2>
+            <p>Experienced coaches to guide you every step of the way.</p>
+          </div>
+
+          <div class="cards trainers">
+            <article class="card">
+              <div class="tag">Personal Trainer</div>
+              <h3>Rex</h3>
+              <p>Certified personal trainer with 5+ years of experience.</p>
+              <ul class="list">
+                <li>Basic training</li>
+                <li>Body transformation</li>
+                <li>Nutrition support</li>
+                <li>Open gym guidance</li>
+              </ul>
+            </article>
+
+            <article class="card">
+              <div class="tag">Yoga Instructor</div>
+              <h3>Rex</h3>
+              <p>Yoga and mobility coaching for strength, flexibility, and recovery.</p>
+              <ul class="list">
+                <li>Yoga training</li>
+                <li>Motivation & engagement</li>
+                <li>Mobility routines</li>
+                <li>Recovery support</li>
+              </ul>
+            </article>
+
+            <article class="card">
+              <div class="tag">Strength Coach</div>
+              <h3>Rex</h3>
+              <p>Strength programming with progressive overload and performance focus.</p>
+              <ul class="list">
+                <li>Strength coaching</li>
+                <li>Technique training</li>
+                <li>Goal tracking</li>
+                <li>Competition prep</li>
+              </ul>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- Pricing -->
+      <section class="section" id="pricing">
+        <div class="container">
+          <div class="section-head">
+            <h2>Pricing</h2>
+            <p>Choose a plan that matches your training style.</p>
+          </div>
+
+          <div class="pricing">
+            <article class="price-card">
+              <h3>Basic</h3>
+              <p class="price">₹999 <span>/ month</span></p>
+              <ul class="list">
+                <li>Open gym access</li>
+                <li>Basic guidance</li>
+                <li>Locker & shower</li>
+              </ul>
+              <a class="btn primary" href="#contact">Select Basic</a>
+            </article>
+
+            <article class="price-card featured">
+              <div class="badge">Most Popular</div>
+              <h3>Standard</h3>
+              <p class="price">₹1999 <span>/ month</span></p>
+              <ul class="list">
+                <li>Open gym access</li>
+                <li>Group classes</li>
+                <li>Monthly progress check</li>
+              </ul>
+              <a class="btn primary" href="#contact">Select Standard</a>
+            </article>
+
+            <article class="price-card">
+              <h3>Premium</h3>
+              <p class="price">₹3999 <span>/ month</span></p>
+              <ul class="list">
+                <li>Personal training</li>
+                <li>Nutrition coaching</li>
+                <li>Priority scheduling</li>
+              </ul>
+              <a class="btn primary" href="#contact">Select Premium</a>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- Contact -->
+      <section class="section" id="contact">
+        <div class="container">
+          <div class="section-head">
+            <h2>Get in Touch</h2>
+            <p>Ask us anything! We’ll reply as soon as possible.</p>
+          </div>
+
+          <div class="contact-grid">
+            <div class="contact-card">
+              <h3>Contact</h3>
+              <p><strong>Address:</strong> 1233 Kalyan 421102</p>
+              <p><strong>Phone:</strong> <a href="tel:+9594311870">+9594311870</a></p>
+              <p><strong>Email:</strong> <a href="mailto:namer@gym.com">namer@gym.com</a></p>
+              <p class="muted">Professional, ultra modern, attractive and unique gym website.</p>
+            </div>
+
+            <form class="form" id="contactForm">
+              <label>
+                Name
+                <input type="text" name="name" placeholder="Your name" required />
+              </label>
+
+              <label>
+                Email
+                <input type="email" name="email" placeholder="you@example.com" required />
+              </label>
+
+              <label>
+                Message
+                <textarea name="message" rows="5" placeholder="Tell us your goal..." required></textarea>
+              </label>
+
+              <button class="btn primary" type="submit">Submit</button>
+              <p class="form-note" id="formNote" aria-live="polite"></p>
+            </form>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="container footer-row">
+        <nav class="footer-nav">
+          <a href="#home">Home</a>
+          <a href="#services">Services</a>
+          <a href="#trainers">Trainers</a>
+          <a href="#pricing">Pricing</a>
+          <a href="#contact">Contact</a>
+        </nav>
+        <p>© 2025 Gym Jets. All rights reserved.</p>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
